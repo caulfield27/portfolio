@@ -1,0 +1,55 @@
+.mobileSidebar_container{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    background: var(--primaryBlack);
+    padding: 20px 35px 20px 35px;
+    
+}
+
+.display_none{
+    display: none;
+
+}
+
+.sidebarClose_btn{
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.mobileSidebar_container::-webkit-scrollbar{
+    width: 5px;
+}
+
+.mobileSidebar_container::-webkit-scrollbar-track{
+    background: gainsboro;
+}
+
+.mobileSidebar_container::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 12px;
+}
+
+.mobile_logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:980px) {
+    .mobileSidebar_container{
+        display: none;
+    }
+    .mobileSidebar_active{
+        display: none;
+    }
+    
+}

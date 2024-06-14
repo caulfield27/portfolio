@@ -1,0 +1,98 @@
+.sidebar_container{
+    background:var(--primaryBlack);
+    height: 100vh;
+    width:285px;
+    padding: 20px 30px 30px 30px;
+    overflow-y: scroll;
+}
+
+.sidebar_container::-webkit-scrollbar{
+    width: 5px;
+}
+
+.sidebar_container::-webkit-scrollbar-track{
+    background: gainsboro;
+}
+
+.sidebar_container::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 12px;
+}
+
+.display_none{
+    display: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.logo_wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.sidebar_footer{
+    margin-top: 40px;
+    color: gainsboro;
+    font-size: 16px;
+}
+
+.burger_btn{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.burger_btn img{
+    width: 40px;
+}
+
+@media screen and (max-width: 980px) {
+    .sidebar_footer{
+        display: none;
+    }
+    .sidebar_container{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        padding: 0 25px 0 25px;
+    }
+    .sidebar_content{
+        height: 70px;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        margin: 0;
+    }
+    .burger_btn{
+        display: block;
+    }
+    .navLinks_wrap{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+    .logo_wrap{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}

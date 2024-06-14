@@ -1,0 +1,19 @@
+.sidebarSocialMedia_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media screen and (max-width: 980px) {
+    .sidebarSocialMedia_wrap{
+        flex-direction: row;
+        gap:15px;
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+    .sidebarSocialMedia_wrap{
+        display: none;
+    }
+}

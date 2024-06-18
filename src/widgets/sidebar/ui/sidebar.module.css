@@ -1,10 +1,9 @@
 .sidebar_container{
-    position: fixed;
     background:var(--primaryBlack);
     width:260px;
-    height: 100vw;
+    height:100%;
     padding: 15px 20px 20px 15px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .sidebar_container::-webkit-scrollbar{

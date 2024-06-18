@@ -3,13 +3,15 @@
 :root{
     --bodyBackground: white;
     --primaryBlack: #141313;
-    --gradient: linear-gradient(90deg, rgba(255,177,71,1) 0%, rgba(255,108,99,1) 52%, rgba(184,106,223,1) 100%); 
+    --gradient: linear-gradient(90deg,rgba(184,106,223,1) 0%, rgba(255,108,99,1) 52%, rgba(255,177,71,1) 100%); 
 }
 
 
 *{
     box-sizing: border-box;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -24,15 +26,19 @@ body{
 }
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
+
+
 
 .app_container{
     position: relative;
     display: flex;
     flex-direction: row;
 }
+
+
 
 @media screen and (max-width: 980px) {
     .app_container{

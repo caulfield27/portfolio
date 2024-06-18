@@ -1,7 +1,8 @@
 .sidebar_container{
+    position: fixed;
     background:var(--primaryBlack);
-    height: 100vh;
     width:285px;
+    height: 100%;
     padding: 20px 30px 30px 30px;
     overflow-y: scroll;
 }

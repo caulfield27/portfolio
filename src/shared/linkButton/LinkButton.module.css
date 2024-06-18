@@ -1,0 +1,22 @@
+.button_link{
+    width: 250px;
+    height: 50px;
+    background: var(--primaryBlack);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_link span{
+    font-size: 18px;
+    color: white;
+    line-height: 24px;
+
+}
+
+.button_link img{
+    width: 24px;
+    height: 24px;
+}

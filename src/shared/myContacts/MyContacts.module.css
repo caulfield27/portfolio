@@ -1,0 +1,27 @@
+.contact_wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.icon_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: gainsboro;
+}
+
+.contact_wrap span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 24px;
+
+}
+

@@ -19,11 +19,11 @@ export default function RootLayout({
         <div className="app_container">
           <Mobilesidebar />
           <Sidebar />
-          <div className='wrapper'>
-            {children}
+          <div className="pages_content">
+            <div className='wrapper'>
+              {children}
+            </div>
           </div>
-
-
         </div>
       </body>
     </html>

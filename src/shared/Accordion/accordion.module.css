@@ -105,5 +105,34 @@
 
 }
 
+@media screen and (max-width: 1145px) {
+    .content_wrap{
+        margin-left: 0;
+    }   
+    
+}
 
+@media screen and (max-width: 1080px) {
+    .title{
+        font-size: 25px;
+    }
+    .activeTitle{
+        font-size: 25px;
+    }
+    
+}
 
+@media screen and (max-width: 750px) {
+    .text_img p{
+        max-width: 250px;
+    }
+    .text_img{
+        align-items: flex-end;
+    }
+
+    .accordion_container{
+        justify-content: center;
+    }
+    
+    
+}

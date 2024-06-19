@@ -16,7 +16,6 @@ export default function Home() {
           <div className={styles.contacts_wrap}>
             <MyContacts icon="/phone.svg" contact="+992 005 88 02 85" />
             <MyContacts icon="/email.svg" contact="al1onggwp@gmail.com" />
-
           </div>
         </section>
         <section className={styles.right_section}>

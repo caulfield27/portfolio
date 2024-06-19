@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     gap: 12px;
+    justify-content: center;
+    align-items:center ;
 }
 
 .icon_wrap{
@@ -22,6 +24,7 @@
     font-weight: bold;
     font-style: italic;
     line-height: 24px;
+    white-space: nowrap;
 
 }
 

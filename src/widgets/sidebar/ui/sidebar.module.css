@@ -1,9 +1,13 @@
 .sidebar_container{
+    position: fixed;
+    top: 0;
+    left: 0;
     background:var(--primaryBlack);
     width:260px;
     height:100%;
     padding: 15px 20px 20px 15px;
     overflow-y: auto;
+    z-index: 99;
 }
 
 .sidebar_container::-webkit-scrollbar{
